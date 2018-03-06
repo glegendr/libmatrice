@@ -5,7 +5,7 @@ CFLAG=
 #CFLAG+= -Wextra
 #CFLAG+= -Wall
 #CFLAG+= -fsanitize=address
-SRCNAME=ft_putnbr_fd mat_del mat_get mat_new mat_print mat_set
+SRCNAME=ft_putnbr_fd mat_del mat_get mat_new mat_print mat_set mat_size
 
 OBJDIR=./obj/
 SRCDIR=./src/

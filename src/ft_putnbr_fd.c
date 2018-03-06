@@ -6,7 +6,7 @@
 /*   By: glegendr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/15 10:13:27 by glegendr          #+#    #+#             */
-/*   Updated: 2018/02/26 22:02:07 by glegendr         ###   ########.fr       */
+/*   Updated: 2018/03/06 17:15:53 by glegendr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void		ft_putnbr_fd(int n, int fd)
 {
-	unsigned int nb;
-	int i;
+	unsigned int	nb;
+	int				i;
 
 	nb = n;
 	if (nb > 2147483648 || n < 0)
