@@ -25,5 +25,6 @@ void	mat_print(t_mat *mat, int fd);
 void	mat_del(t_mat *mat);
 void	mat_set(t_mat *mat, int y, int x, int content);
 int		mat_get(t_mat *mat, int y, int x);
+int		mat_size(t_mat *mat);
 t_mat	mat_new(int line_size);
 #endif
